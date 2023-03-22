@@ -9,7 +9,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "engines": {
-    "node":"19.8.0",
+    "node":"18.15.0",
     "npm":"9.6.1"
   },
   "scripts":{
