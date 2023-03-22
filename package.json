@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.2",
+    "react": "^18.2.0"
+  },
+  "name": "klenty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node":"19.8.0",
+    "npm":"9.6.1"
+  },
+  "scripts":{
+    "client-install":"npm install --prefix client",
+    "server":"nodemon server.js",
+    "client":"npm start --prefix client",
+    "dev":"concurrently \"npm run server\" \"npm run client\"",
+    "start": "node server.js",
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION-false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}

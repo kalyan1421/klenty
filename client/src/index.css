@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@600&display=swap');
+body {
+  margin: 0;
+  font-family: 'Sono', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e7e7e7;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bs1{
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(203, 39, 39, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+h1{
+  font-size: 30px;
+  font-weight: bold;   
+  color: #142457;
+}
+p{
+  margin: 5px !important;
+  text-align: left;
+  font-weight: bold;
+  color: #3155c9;
+  padding: 0px !important;
+}
+.btn1{
+  box-shadow: none !important;
+  background-color: #e7e7e7 !important;
+  color: #142457 !important;
+  border: 3px solid #142457 !important;
+  padding: 5px 15px !important;
+  outline: nonn !important;
+}
+.bs1:focus{
+  border: none;
+}
+button{
+  padding: 3px !important;
+}
+.header{
+  padding: 15px;
+}
+.header .ant-btn{
+  box-shadow: none !important;
+  background-color: #e7e7e7 !important;
+  color: #eba9a9 !important;
+  border: 2px solid #f28585 !important;
+  padding: 0px 15px !important;
+  outline: nonn !important;
+}
+.content{
+  min-height: 90vh;
+}
+/* this is for UI  */
+.Car{
+  border-radius: 5px;
+  margin-top: 100px;
+  height: 170px;
+  transition: 0.3s;
+}
+.Car:hover{
+  height: 240px;
+}
+.Car:hover > .car-content{
+  opacity: 1;
+  transform: translateY(-40px);
+}
+
+.caring{
+  height: 180px;
+  width: auto;
+  border-radius: 5px;
+  transform: translateY(-60px);
+}
+.car-content{
+  transform: translateY(-150px);
+  opacity: 0;
+  transition: 0.3s;
+}
+.login{
+  background-color: #000000;
+  min-height: 100vh;
+  padding-top: 40px;
+}
+
+.login label , .login h1{
+  color: #f0f0f0 !important;
+  opacity: 0.6;
+}
+
+.Login-form{
+  background-color: #1f1f1f;
+  padding: 5;
+}
+
+.Login-form input{
+  background-color: #333333 !important;
+  border: none !important;
+  color: white;
+  opacity: 0.5;
+}
+
+.login-logo{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60%;
+  bottom: 50%;
+  transform: translateY(-50%,-50%);
+  font-size: 40px;
+  opacity: 0.2 !important;
+}
+
+.Login a{
+  color: white !important;
+  opacity: 0.5 !important;
+}
+.carimg2{
+  height: 300px;
+  width: auto;
+  border-radius: 10px;
+}
