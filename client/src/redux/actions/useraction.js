@@ -1,5 +1,5 @@
 import { message } from "antd";
-import { axios } from 'react-axios'
+import { axios } from 'axios'
 
 
 export const userLogin=(reqObj)=>async dispatch=>{
