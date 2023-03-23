@@ -21,5 +21,5 @@ if(process.env.NODE_ENV==='production')
 
 
 
-app.get('/home', (req, res) => res.send("HOME"))
+app.get('/', (req, res) => res.send("HOME"))
 app.listen(port, () => console.log('Node JS server started in ${port}'))
